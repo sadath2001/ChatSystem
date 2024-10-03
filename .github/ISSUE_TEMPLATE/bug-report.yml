@@ -1,7 +1,7 @@
 name: "🐞 Bug Report"
 description: Report a bug or propose to fix a bug
 title: "BUG:"
-labels: [Bug]
+labels: [Bug, Needs Triage]
 body:
   - type: checkboxes
     attributes:
@@ -18,7 +18,7 @@ body:
     id: description
     attributes:
       label: Describe your issue
-      placeholder: Eg - When I click here this happens
+      placeholder: Eg - When I click here this happens..
     validations:
       required: true
   - type: textarea
@@ -35,13 +35,15 @@ body:
     id: expected
     attributes:
       label: What was the expected result?
-      placeholder: Describe the expected functionality
+      description: Describe the expected functionality
+      placeholder: Eg - It was expected to log out, but it doesnt
     validations:
       required: true
   - type: textarea
     attributes:
       label: Proposed solution
-      placeholder: You approach or an abstract idea to tackle this issue.
+      description: You approach or an abstract idea to tackle this issue.
+      placeholder: Eg - This can be implemented using..
     validations:
       required: true
   - type: dropdown
@@ -52,11 +54,12 @@ body:
         - "Yes"
   - type: checkboxes
     attributes:
-      label: "Record"
+      label: "Terms & Conditions"
       options:
         - label: "I agree to follow the Code of Conduct"
           required: true
         - label: "I'm a GSSOC'24 Ext contributor"
+          required: true
 
   - type: markdown
     attributes:
