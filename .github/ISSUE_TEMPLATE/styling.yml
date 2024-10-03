@@ -1,6 +1,6 @@
 name: "🌟 Enhancement"
 description: Enhance any existing feature / functionality which will improve the existing state of the application.
-title: "Enhancement:"
+title: "ENHANCEMENT: "
 labels: ["enhancement","Needs Triage"]
 body:
   - type: checkboxes
