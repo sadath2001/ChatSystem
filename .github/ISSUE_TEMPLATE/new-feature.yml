@@ -1,6 +1,6 @@
 name: "🚀 New feature"
 description: Suggest any new feature / functionality which will actually be a meaningful addon to the application.
-title: "Feature:"
+title: "FEATURE: "
 labels: ["enhancement","Needs Triage"]
 body:
   - type: checkboxes
@@ -33,11 +33,8 @@ body:
     attributes:
       label: It should be implemented because
       description: Give out a detailed explanation along with its use-case
-  - type: textarea
-    attributes:
-      label: Additional context
-      placeholder: |
-        Add any other context or screenshots about the feature request here.
+      required: true
+
   - type: dropdown
     id: assign
     attributes:

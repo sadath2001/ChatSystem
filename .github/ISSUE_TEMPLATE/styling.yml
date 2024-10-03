@@ -1,7 +1,7 @@
 name: "🌟 Enhancement"
 description: Enhance any existing feature / functionality which will improve the existing state of the application.
 title: "Enhancement:"
-labels: ["Feat","Needs Triage"]
+labels: ["enhancement","Needs Triage"]
 body:
   - type: checkboxes
     attributes:
@@ -33,6 +33,7 @@ body:
     attributes:
       label: It should be implemented because
       description: Give out a detailed explanation along with its use-case
+      required: true
   - type: dropdown
     id: assign
     attributes:
