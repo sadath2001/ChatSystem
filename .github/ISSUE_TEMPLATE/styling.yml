@@ -33,6 +33,7 @@ body:
     attributes:
       label: It should be implemented because
       description: Give out a detailed explanation along with its use-case
+    validations:
       required: true
   - type: dropdown
     id: assign
@@ -47,7 +48,7 @@ body:
         - label: "I agree to follow the Code of Conduct"
           required: true
         - label: "I'm a GSSOC'24 Ext contributor"
-      validations:
+    validations:
         required: true
 
   - type: markdown
