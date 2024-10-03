@@ -44,7 +44,6 @@ body:
       label: "Terms & Conditions"
       options:
         - label: "I agree to follow the Code of Conduct"
-          url: https://github.com/AlfiyaSiddique/TastyTrails/blob/master/CONTRIBUTING.md
           required: true
         - label: "I'm a GSSOC'24 Ext contributor"
           required: true
