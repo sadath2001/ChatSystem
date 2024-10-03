@@ -1,5 +1,5 @@
 name: "🚀 New feature"
-description: Suggest Any new feature / functionality which will actually be a meaningful addon to the application.
+description: Suggest any new feature / functionality which will actually be a meaningful addon to the application.
 title: "Feature:"
 labels: ["enhancement","Needs Triage"]
 body:
