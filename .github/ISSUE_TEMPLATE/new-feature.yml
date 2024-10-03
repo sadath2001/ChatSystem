@@ -29,12 +29,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: rationale
     attributes:
       label: It should be implemented because
       description: Give out a detailed explanation along with its use-case
+    validations:
       required: true
-
   - type: dropdown
     id: assign
     attributes:
