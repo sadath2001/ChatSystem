@@ -1,0 +1,25 @@
+{
+  "name": "chatsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadath2001/ChatSystem.git"
+  },
+  "author": "Sadath Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sadath2001/ChatSystem/issues"
+  },
+  "homepage": "https://github.com/sadath2001/ChatSystem#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.0"
+  }
+}
