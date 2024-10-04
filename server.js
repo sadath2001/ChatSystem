@@ -15,7 +15,10 @@ io.on("connection",(socket)=>{
 
     //basically reading the message from the event defined in backend
     socket.on("user's-message",(message)=>{
-        console.log(message)
+       // console.log("message from the user: ",message)
+        
+        // basically sending the message to all connected devices
+        io.emit("message to others",message)
     })
 })
 
