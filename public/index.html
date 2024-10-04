@@ -7,5 +7,23 @@
 </head>
 <body>
     <h1>Hello, World!</h1>
+
+    <input type="text" id="message" placeholder="enter message"/>
+    <button id="button">send</button>
+
+    <!-- the below is related to node_modules/socket.io/client-dist/socket.io.js  and because of get method, it takes us there-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        // basically creates a new socket connection
+        const socket=io();
+        const buttonState=document.getElementById("button");
+        const text=document.getElementById("message");
+        buttonState.addEventListener("click",(e)=>{
+            const message=text.value;
+            console.log(message);
+            // sending a message from the client where user's message is an event
+            socket.emit("user's-message",message);
+        })
+    </script>
 </body>
 </html>
